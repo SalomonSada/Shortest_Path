@@ -1,10 +1,10 @@
 import './App.css';
-import PathFindingVisualizer from './pathFindingVisualizer/PathFindingVisualizer';
+import Graph from './components/Graph';
 
 function App() {
   return (
     <div>
-      <PathFindingVisualizer></PathFindingVisualizer>
+      <Graph></Graph>
     </div>
   );
 }

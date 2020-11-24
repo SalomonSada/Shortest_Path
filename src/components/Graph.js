@@ -1,15 +1,13 @@
 import React, { Component } from 'react';
-import Node from './node/Node';
+import Node from './Node';
 import { dijkstra, getNodesInShortestPathOrder } from '../algorithms/dijkstra';
-
-import './pathFindingVisualizer.css';
 
 const START_NODE_ROW = 10;
 const START_NODE_COL = 15;
 const FINISH_NODE_ROW = 10;
 const FINISH_NODE_COL = 35;
 
-export default class PathfindingVisualizer extends Component {
+export default class Graph extends Component {
   constructor() {
     super();
     this.state = {
